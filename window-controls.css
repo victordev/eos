@@ -1,0 +1,80 @@
+.header-bar.default-decoration .button.titlebutton,
+.titlebar.default-decoration .button.titlebutton {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.header-bar .button.titlebutton,
+.titlebar .button.titlebutton {
+  padding-left: 4px;
+  padding-right: 4px;
+  border-color: transparent;
+  background-color: transparent;
+  background-image: none;
+  background-color: rgba(231, 232, 235, 0); }
+  .header-bar .button.titlebutton:not(GtkMenuButton),
+  .titlebar .button.titlebutton:not(GtkMenuButton) {
+    padding-top: 8px;
+    padding-bottom: 8px; }
+  .header-bar .button.titlebutton:hover,
+  .titlebar .button.titlebutton:hover {
+    color: rgba(82, 93, 118, 0.8);
+    outline-color: rgba(82, 93, 118, 0.1);
+    border-color: rgba(82, 93, 118, 0.1);
+    background-color: rgba(251, 251, 252, 0.9); }
+  .header-bar .button.titlebutton:active, .header-bar .button.titlebutton:checked,
+  .titlebar .button.titlebutton:active,
+  .titlebar .button.titlebutton:checked {
+    color: #ffffff;
+    outline-color: rgba(255, 255, 255, 0.3);
+    border-color: #5294e2;
+    background-color: #5294e2; }
+  .header-bar .button.titlebutton.close, .header-bar .button.titlebutton.maximize, .header-bar .button.titlebutton.minimize,
+  .titlebar .button.titlebutton.close,
+  .titlebar .button.titlebutton.maximize,
+  .titlebar .button.titlebutton.minimize {
+    color: transparent;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 0; }
+    .header-bar .button.titlebutton.close:backdrop, .header-bar .button.titlebutton.maximize:backdrop, .header-bar .button.titlebutton.minimize:backdrop,
+    .titlebar .button.titlebutton.close:backdrop,
+    .titlebar .button.titlebutton.maximize:backdrop,
+    .titlebar .button.titlebutton.minimize:backdrop {
+      opacity: 1; }
+  .header-bar .button.titlebutton.close,
+  .titlebar .button.titlebutton.close {
+    background-image: -gtk-scaled(url("window-controls/close.svg")); }
+  .header-bar .button.titlebutton.close:backdrop,
+  .titlebar .button.titlebutton.close:backdrop {
+    background-image: -gtk-scaled(url("window-controls/close_unfocused.svg")); }
+  .header-bar .button.titlebutton.close:hover,
+  .titlebar .button.titlebutton.close:hover {
+    background-image: -gtk-scaled(url("window-controls/close_prelight.svg")); }
+  .header-bar .button.titlebutton.close:active,
+  .titlebar .button.titlebutton.close:active {
+    background-image: -gtk-scaled(url("window-controls/close_pressed.svg")); }
+  .header-bar .button.titlebutton.maximize,
+  .titlebar .button.titlebutton.maximize {
+    background-image: -gtk-scaled(url("window-controls/maximize.svg")); }
+  .header-bar .button.titlebutton.maximize:backdrop,
+  .titlebar .button.titlebutton.maximize:backdrop {
+    background-image: -gtk-scaled(url("window-controls/maximize_unfocused.svg")); }
+  .header-bar .button.titlebutton.maximize:hover,
+  .titlebar .button.titlebutton.maximize:hover {
+    background-image: -gtk-scaled(url("window-controls/maximize_prelight.svg")); }
+  .header-bar .button.titlebutton.maximize:active,
+  .titlebar .button.titlebutton.maximize:active {
+    background-image: -gtk-scaled(url("window-controls/maximize_pressed.svg")); }
+  .header-bar .button.titlebutton.minimize,
+  .titlebar .button.titlebutton.minimize {
+    background-image: -gtk-scaled(url("window-controls/min.svg")); }
+  .header-bar .button.titlebutton.minimize:backdrop,
+  .titlebar .button.titlebutton.minimize:backdrop {
+    background-image: -gtk-scaled(url("window-controls/min_unfocused.svg")); }
+  .header-bar .button.titlebutton.minimize:hover,
+  .titlebar .button.titlebutton.minimize:hover {
+    background-image: -gtk-scaled(url("window-controls/min_prelight.svg")); }
+  .header-bar .button.titlebutton.minimize:active,
+  .titlebar .button.titlebutton.minimize:active {
+    background-image: -gtk-scaled(url("window-controls/min_pressed.svg")); }
